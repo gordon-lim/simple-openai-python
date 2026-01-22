@@ -14,7 +14,7 @@ CORS(app)
 app.static_url_path = ''
 app.static_folder = 'public'
 
-PORT = int(os.getenv('PORT', 3000))
+PORT = int(os.getenv('PORT', 3003))
 
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
